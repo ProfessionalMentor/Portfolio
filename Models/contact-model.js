@@ -5,7 +5,6 @@ let userSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    unique: true,
     index: true,
   },
   email: {
@@ -16,7 +15,6 @@ let userSchema = new mongoose.Schema({
   problem: {
     type: string,
     required: true,
-    unique: true,
   },
 });
 
