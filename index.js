@@ -1,4 +1,5 @@
 import express from "express";
+import mongoose from "mongoose";
 const app = express();
 import ejs from "ejs";
 import { fileURLToPath } from "url";
