@@ -1,0 +1,94 @@
+:root {
+  --bg-color: #081b29;
+  --main-color: #00abf0;
+  --text-color: #333;
+  --second-text-color: #555;
+  --second-text-color: #fff;
+  --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
+  --pages-color: linear-gradient(90deg, #fff, #ddd);
+  --border: 0.125rem solid #00abf0;
+  --box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 0;
+}
+
+
+
+/* Logo */
+#logo h1 {
+  margin-left: 30px;
+  color: var(--main-color);
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+/* Navbar */
+
+#navbar ul {
+  display: flex;
+  margin-left: 650px;
+  margin-top: -43px;
+}
+
+#navbar ul li {
+  list-style: none;
+
+}
+
+#navbar ul li a {
+  color: var(--main-color);
+  padding: 18px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+#navbar ul li a:hover {
+  color: white;
+  background: var(--main-color);
+  border-radius: 25px;
+}
+
+#main-image img {
+  width: 101%;
+  height: 90vh;
+  margin-top: 14px;
+}
+
+#main-heading h1 {
+  font-family: sans-serif;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+#web h2 {
+  font-family: sans-serif;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+}
+
+#web p {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#web .images-proj {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 430px;
+}

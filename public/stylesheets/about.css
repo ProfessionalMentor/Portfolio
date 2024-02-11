@@ -1,0 +1,127 @@
+:root {
+  --bg-color: #081b29;
+  --main-color: #00abf0;
+  --text-color: #333;
+  --second-text-color: #555;
+  --second-text-color: #fff;
+  --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
+  --pages-color: linear-gradient(90deg, #fff, #ddd);
+  --border: 0.125rem solid #00abf0;
+  --box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* Logo */
+#logo h1 {
+  margin-left: 30px;
+  color: var(--main-color);
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+/* Navbar */
+
+#navbar ul {
+  display: flex;
+  margin-left: 650px;
+  margin-top: -43px;
+}
+
+#navbar ul li {
+  list-style: none;
+
+}
+
+#navbar ul li a {
+  color: var(--main-color);
+  padding: 18px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+
+#navbar ul li a:hover {
+  color: white;
+  background: var(--main-color);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+/* About us */
+
+
+#main-img-about img {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  animation-name: Ali2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: esae;
+}
+
+@keyframes Ali2 {
+  from {
+    width: 500px;
+  }
+
+  to {
+    width: 1200px;
+  }
+
+}
+
+#scr-about {
+  font-family: sans-serif;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.workeduc-content {
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-left: 800px;
+  font-size: larger;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+}
+
+
+.workeduc-content h3 {
+  color: #00abf0;
+}
+
+
+#img-about img {
+  margin-top: -1200px;
+  height: 500px;
+  width: 500px;
+  animation-name: Ali3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes Ali3 {
+  from {
+    margin-top: -200px
+  }
+
+  to {
+    margin: top 1000px;
+  }
+}

@@ -1,0 +1,186 @@
+:root {
+  --bg-color: #081b29;
+  --main-color: #00abf0;
+  --text-color: #333;
+  --second-text-color: #555;
+  --second-text-color: #fff;
+  --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
+  --pages-color: linear-gradient(90deg, #fff, #ddd);
+  --border: 0.125rem solid #00abf0;
+  --box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-image: url(/Images/bg.jpg);
+  height: 90vh;
+  width: 98%;
+  background-repeat: no-repeat;
+  margin-left: -10px;
+}
+
+/* Logo */
+#logo h1 {
+  margin-left: 30px;
+  color: var(--main-color);
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+/* Navbar */
+
+#navbar ul {
+  display: flex;
+  margin-left: 650px;
+  margin-top: -43px;
+}
+
+#navbar ul li {
+  list-style: none;
+
+}
+
+#navbar ul li a {
+  color: var(--main-color);
+  padding: 18px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+#navbar ul li a:hover {
+  color: white;
+  background: var(--main-color);
+  border-radius: 25px;
+}
+
+/* text portion */
+
+#maintext h2 {
+  margin-left: 200px;
+  color: yellow;
+  font-family: sans-serif;
+  font-size: 34px;
+  margin-top: 170px;
+  animation-name: Ali;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@keyframes Ali {
+  from {
+    font-size: 45px;
+
+  }
+
+  to {
+    font-size: 34px;
+  }
+}
+
+#text-container {
+  font-size: 24px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: yellow;
+  animation: typing 3s steps(30) 1s forwards, blink-caret 0.75s step-end infinite;
+  margin: 0 auto;
+  font-family: sans-serif;
+  margin-left: 210px;
+  margin-top: -23px;
+  color: var(--main-color);
+}
+
+
+#pi {
+  border: 2rem var(--main-color);
+  border-radius: -50%;
+}
+
+#pi img {
+  max-width: 220px;
+  margin-left: 900px;
+  border: 5px solid var(--main-color);
+  border-radius: 50%;
+  margin-top: -100px;
+  box-shadow: 12px, 12px, 12px var(--main-color);
+
+}
+
+#ch {
+  margin-left: 230px;
+  margin-top: -50px;
+}
+
+#bt1 {
+  display: flex;
+  margin-left: 245px;
+}
+
+.social-media {
+  margin-top: -110px;
+  margin-left: 285px;
+}
+
+.social-media a {
+  margin: 7px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  background: transparent;
+  border: var(--border);
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: var(--main-color);
+  text-decoration: none;
+
+}
+
+.social-media a:hover {
+  color: white;
+  background: var(--main-color);
+  transition: all 0.3s ease;
+}
+
+#bt1 {
+  margin-top: 20px;
+  margin-left: 240px;
+
+}
+
+
+#bt1 .main-btn {
+  margin: 9px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.5rem;
+  height: 2.5rem;
+  border: var(--border);
+  border-radius: 0.3rem;
+  font-size: 1.0rem;
+  color: var(--main-color);
+  font-weight: 500;
+  background: transparent;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#bt1 .main-btn:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+
+
+
+
+
+/* Services */
